@@ -1,0 +1,13 @@
+{
+	"scope": "text.xml.xsl",
+
+	"completions":
+	[
+
+		{ "trigger": "html", "contents": "<html>\n\t<head>\n\t\t<title>$1</title>\n\t</head>\n\t<body>\n\t\t\n\t</body>\n</html>" },
+		{ "trigger": "input", "contents": "<input type=\"${1:text}\" id=\"$2\" name=\"$2\">\n\t<xsl:attribute name=\"${3:value}\">\n\t\t<xsl:value-of select=\"$4\" />\n\t</xsl:attribute>\n</input>" },
+		{ "trigger": "text", "contents": "<textarea id=\"$1\" name=\"$1\"><xsl:value-of select=\"$2\" /></textarea>" },
+		{ "trigger": "attr", "contents": "<xsl:attribute name=\"${1:value}\">\n\t<xsl:value-of select=\"$2\" />\n</xsl:attribute>" },
+		{ "trigger": "value", "contents": "<xsl:value-of select=\"$1\">"}
+	]
+}

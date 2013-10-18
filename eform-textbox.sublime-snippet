@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<input type="text" id="$1" name="$1">
+	<xsl:attribute name="value">
+		<xsl:value-of select="$2" />
+	</xsl:attribute>
+</input>
+]]></content>
+	<description>ImageNow eForm Text Input</description>
+	<tabTrigger>xsl-textbox</tabTrigger>
+	<scope>source.xsl</scope>
+</snippet>
