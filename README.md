@@ -1,4 +1,4 @@
-ImageNow iScript
+ImageNow eForms
 =================
 
-This is a Sublime Text Language Package for ImageNow's iScript Language.
+This is a Sublime Text Language Package for ImageNow's eForms.
